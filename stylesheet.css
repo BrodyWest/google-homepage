@@ -1,0 +1,109 @@
+img{
+	display: block;
+	width: 270px;
+	height: auto;
+	margin-top: 195px;
+	margin-left: auto;
+	margin-right: auto;
+}
+form{
+	padding-top: 25px;
+}
+.text{
+	display: block;
+	width: 475px;
+	height: 24px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.submit{
+	position: relative;
+	margin-top: 13px;
+	display: inline-block;
+	font-family: Arial;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 7px 6px 7px 6px;
+	color: #444444;
+	background-color: #EEEEEE;
+	border: solid 1px #CCCCCC;
+}
+.a_top{
+	display: inline-block;
+	position: absolute;
+	font-size: 13px;
+	text-decoration: none;
+	color: #444444;
+}
+.a_bot{
+	display: inline-block;
+	position: absolute;
+	margin-top: 12px;
+	margin-bottom: auto;
+	text-decoration: none;
+	font-size: 13px;
+	color: #555555;
+}
+.grid{
+	display: inline-block;
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	background-color: #444444;
+}
+#circle{
+	display: inline-block;
+	position: absolute;
+	background-color: red;
+	height: 18px;
+	width: 18px;
+	border-radius: 9px;
+	z-index: -1;
+}
+#circle:hover{
+	background-color: #800000;
+}
+#one{
+	display: block;
+	font-size: 15px;
+	color: white;
+	position: absolute;
+	z-index: 1;
+	margin: auto;
+	left: 5px;
+}
+#plus{
+	position: absolute;
+	font-size: 15px;
+	color: #444444;
+	margin: 0;
+	left: 2px;
+	top: -4px;
+	font-weight: bold;
+}
+#square{
+	position: absolute;
+	display: block;
+	border: 2px #444444 solid;
+	width: 13px;
+	height: 13px;
+}
+#smiley{
+	position: absolute;
+	width: 30px;
+	height: auto;
+	right: 30px;
+	top: -180px;
+}
+#footer{
+	position: absolute;
+	display: block;
+	height: 38px;
+	width: 100%;
+	bottom: 0px;
+	border: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+}
